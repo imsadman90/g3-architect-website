@@ -185,11 +185,25 @@ width: 100%;
  filter: grayscale(100%);
 }
 
+.footer{
+  background-color: rgba(255, 144, 14, 0.1);
+  padding-left: 0, auto;
+  padding-right: 0, auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin: 100px;
+  width: 0, auto;
+  font-size: 1.25rem;
+  text-align: center;
+
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .navbar,
   .nav-links,
   .features,
+  .footer,
   .teams{
     flex-direction: column;
   }
